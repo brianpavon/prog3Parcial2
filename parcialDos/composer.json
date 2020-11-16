@@ -1,0 +1,23 @@
+{
+    "name": "brian/practica-parcial-dos",
+    "description": "",
+    "authors": [
+        {
+            "name": "Brian Pavon",
+            "email": "brian.pavon@hotmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.2",
+        "illuminate/database": "^8.14",
+        "illuminate/events": "^8.14",        
+        "firebase/php-jwt": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Config\\": "config/",
+            "App\\": "src/"
+        }
+    }
+}
