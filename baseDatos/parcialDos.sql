@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 17-11-2020 a las 00:52:07
+-- Tiempo de generación: 17-11-2020 a las 00:55:26
 -- Versión del servidor: 10.4.14-MariaDB
 -- Versión de PHP: 7.4.9
 
@@ -89,7 +89,7 @@ CREATE TABLE `usuarios` (
 
 INSERT INTO `usuarios` (`id`, `email`, `nombre`, `clave`, `tipo`, `created_at`, `updated_at`) VALUES
 (2, 'PEPE@MAIL.COM', 'PEPE', '123456', 'ALUMNO', '2020-11-17 02:22:49', '2020-11-17 02:22:49'),
-(3, 'ADMIN@MAIL.COM', 'ADMIN', '123', 'ADMIN', '2020-11-17 02:28:41', '2020-11-17 02:28:41'),
+(3, 'ADMIN@MAIL.COM', 'ADMIN', '12345', 'ADMIN', '2020-11-17 02:28:41', '2020-11-17 02:28:41'),
 (4, 'BRIAN@MAIL.COM', 'BRIAN', '1234567', 'ALUMNO', '2020-11-17 03:03:52', '2020-11-17 03:03:52'),
 (5, 'PROFESOR@MAIL.COM', 'PROFESOR', '1234567', 'PROFESOR', '2020-11-17 03:05:20', '2020-11-17 03:05:20');
 
